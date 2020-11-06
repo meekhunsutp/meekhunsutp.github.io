@@ -1,13 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Pas Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div>
-        <h1>Hello</h1>
+
+<body class="bg-secondary">
+  <nav class="navbar navbar-expand-lg bg-success text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a style="color:midnightblue" class="navbar-brand js-scroll-trigger" href="#home">HOME</a>
+      <button style="color:midnightblue"
+        class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+        type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1"><a style="font-size:18px; color:midnightblue"
+              class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a style="font-size:18px; color:midnightblue"
+              class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a style="font-size:18px; color:midnightblue"
+              class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <header class="bg-primary text-white text-center" id="home">
+    <div class="container d-flex align-items-center flex-column">
+      <img style="border:5px solid rgb(197, 156, 42) "
+        class="img-fluid pic-margin resize mx-auto d-block rounded-circle" max-width="75%" src="images\IMG_8884.jpg"
+        alt="It's Pas">
+      <h1 class="title-gold text-center text-uppercase">pasavit meekhunsut</h1>
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star" style="font-size:36px;color:whitesmoke"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <p class="lead mb-0">Student at devCodeCamp</p>
+      <br />
+    </div>
+  </header>
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+      <h3 class="page-section-heading title-gold text-center text-uppercase">portfolio</h3>
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star" style="font-size:36px;color:whitesmoke"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-eye"
+                  style="font-size:55px"></i></div>
+            </div>
+            <img class="img-fluid" src="images\RPSLS.png" alt="RPSLS" />
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-eye"
+                  style="font-size:55px"></i></div>
+            </div>
+            <img class="img-fluid" src="images\RobotVsDinosaur.jpeg" alt="Robot Vs Dinosaur" />
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-eye"
+                  style="font-size:55px"></i></div>
+            </div>
+            <img class="img-fluid" src="images\soda2.jpg" alt="Soda Machine" />
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-eye"
+                  style="font-size:55px"></i></div>
+            </div>
+            <img class="img-fluid" src="images\sweepstake.png" alt="sweepstakes" />
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-eye"
+                  style="font-size:55px"></i></div>
+            </div>
+            <img class="img-fluid" src="images\comingsoon.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fa fa-eye"
+                  style="font-size:55px"></i></div>
+            </div>
+            <img class="img-fluid" src="images\comingsoon.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <h3 class="page-section-heading title-gold text-center text-uppercase">About</h3>
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star" style="font-size:36px;color:whitesmoke"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-12 text-center ml-auto">
+          <p class="lead">Hey look, thats me! This is my first try at a webpage. More information, projects, and cool
+            stuff to come soon. Until then, enjoy the mess!</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h3 class="text-uppercase title-gold mb-4">CONTACT</h3>
+          <p class="lead contact-light mb-4">
+            meekhunsutp@gmail.com
+            <br />
+            414-364-4435
+            <br />
+            <br />
+          </p>
+          <h3 class="text-uppercase title-gold mb-4">Around the Web</h3>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/pmeekhunsut"><i
+              class="fab fa-fw fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1"
+            href="https://www.linkedin.com/in/pasavit-meekhunsut-88981456/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/meekhunsutp"><i
+              class="fab fa-github"></i></a>
+        </div>
+        <div class="col-lg-6 mx-auto">
+          <h2 class="text-uppercase title-gold text-center mb-4">Hit me up !</h2>
+          <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star" style="font-size:30px;color:whitesmoke"></i></div>
+            <div class="divider-custom-line"></div>
+          </div>
+          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <input class="form-control mb-2" id="name" type="text" placeholder="Name" required="required"
+              data-validation-required-message="Please enter your name." />
+            <input class="form-control mb-2" id="email" type="email" placeholder="Email Address" required="required"
+              data-validation-required-message="Please enter your email address." />
+            <input class="form-control mb-2" id="phone" type="tel" placeholder="Phone Number" required="required"
+              data-validation-required-message="Please enter your phone number." />
+            <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required"
+              data-validation-required-message="Please enter a message."></textarea>
+            <br />
+            <div id="success"></div>
+            <button class="btn btn-primary" id="sendMessageButton" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container text-center"><small>© 2020 by Pas Meekhunsut</small></div>
+  </footer>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">rock
+                  paper scissor lizard spock</h2>
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="images\RPSLS.png" alt="RPSLS" />
+                <p class="mb-5">It's very simple!<br/>
+                  Scissors CUTS Paper. Paper COVERS Rock. Rock CRUSHES Lizard. Lizard POISONS Spock. Spock SMASHES Scissors. Scissors DECAPITATES Lizards. Lizard EATS Paper. Paper DISPROVES Spock. Spock VAPORIZES Rock. Rock CRUSHES Scissors.<br/>
+                  Let's Play!
+                </p>
+                <a href="https://github.com/meekhunsutp/RPSLS_C-"><button type="button"
+                    class="btn btn-primary btn-block">Git Repo</button></a>
+                  <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">robots vs
+                  dinosaur</h2>
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="images\RobotVsDinosaur.jpeg" alt="Robot Vs Dinosaur" />
+                <p class="mb-5">Welcome to Whose Fight is it Anyways?<br/>
+                  The game where everything's made up and the points don't matter. <br/>
+                  Starring under powered ROBOTS Versus suped up DINOSAURS</p>
+                <a href="https://github.com/meekhunsutp/RobotsVsDinosaurs"><button type="button"
+                    class="btn btn-primary btn-block">Git Repo</button></a>
+                  <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Soda
+                  Machine</h2>
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="images\soda2.jpg" alt="Soda Machine" />
+                <p class="mb-5">Get rich quick now! Little up front investment, huge returns!</p>
+                <a href="https://github.com/meekhunsutp/SodaMachineDCC"><button type="button"
+                    class="btn btn-primary btn-block">Git Repo</button></a>
+                  <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal4Label">
+                  sweepstakes</h2>
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="images\sweepstake.png" alt="sweepstakes" />
+                <p class="mb-5">Would you like to creat a sweepstakes? You can with this!</p>
+                <a href="https://github.com/meekhunsutp/SweepstakesDCC"><button type="button"
+                    class="btn btn-primary btn-block">Git Repo</button></a>
+                  <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal5Label">Coming
+                  Soon</h2>
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="images\comingsoon.jpg" alt="" />
+                <p class="mb-5">More projects to come soon!</p>
+                <a href="https://github.com/meekhunsutp"><button type="button" class="btn btn-primary btn-block">Git
+                    Repo</button></a>
+                  <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal6Label">Coming
+                  Soon
+                </h2>
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <img class="img-fluid rounded mb-5" src="images\comingsoon.jpg" alt="" />
+                <p class="mb-5">More projects to come soon!</p>
+                <a href="https://github.com/meekhunsutp"><button type="button" class="btn btn-primary btn-block">Git
+                    Repo</button></a>
+                  <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="scripts.js"></script>
 </body>
+
 </html>

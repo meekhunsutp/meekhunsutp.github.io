@@ -1,0 +1,155 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1.5rem;
+    margin-left: -1.5rem;
+  }
+
+.container,
+.container-fluid,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-contact {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .page-section {
+    padding: 6rem 0;
+  }
+  .page-section .page-section-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+  @media (min-width: 992px) {
+    .page-section .page-section-heading {
+      font-size: 3rem;
+      line-height: 2.5rem;
+    }
+  }
+
+  .btn-social {
+    border-radius: 100%;
+    display: inline-flex;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .btn-outline-dark:hover {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    font-weight: 350;
+  }
+
+  img.resize {
+    max-width:50%;
+    max-height:50%;
+  }
+  .bg-primary {
+    background-color: #091850 !important;
+  }
+  .bg-secondary {
+    background-color: #393B43 !important;
+  }
+  .bg-success {
+    background-color: #C59C0C !important;
+  }
+  .title-gold{
+    color: #C59C0C
+  }
+  .contact-light{
+    color: #FFFFFF
+  }
+
+  .divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #C59C0C;
+    border-radius: 1rem;
+    border-color: #C59C0C;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: font-size 0.5s;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #091850;
+    border-color: #091850;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #C59C0C;
+    border-color: #C59C0C;
+  }
+  .pic-margin{
+    margin-top: 6em;
+    margin-bottom: 1em;
+  }
+  .portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(197, 156, 12, 0.5);
+  }
+  .portfolio .portfolio-item .portfolio-item-caption:hover {
+    opacity: 1;
+  }
+  .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-modal .portfolio-modal-title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+
+  .portfolio-modal .close {
+    position: absolute;
+    z-index: 1;
+    right: 1.5rem;
+    top: 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #091850;
+    opacity: 1;
+  }
